@@ -1,7 +1,7 @@
 describe('Login Form', () => {
     it('should login successfully with correct credentials', () => {
       // Visit the login page
-      cy.visit('path/to/your/login.html');
+      cy.visit('index.html');
   
       // Enter valid credentials
       cy.get('input[name="username"]').type('user');
@@ -16,7 +16,7 @@ describe('Login Form', () => {
   
     it('should show an alert with invalid credentials', () => {
       // Visit the login page
-      cy.visit('path/to/your/login.html');
+      cy.visit('index.html');
   
       // Enter invalid credentials
       cy.get('input[name="username"]').type('invalidUser');
